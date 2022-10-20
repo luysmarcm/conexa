@@ -14,9 +14,11 @@ module.exports = {
 				azul: "#0a3cda",
 			},
 			fontFamily: {
+				gilroygold: ["Gilroy-Bold"],
+				mont: ["Montserrat"],
+				pop: ["Poppins"],
+				rale: ["Raleway"],
 
-        gilroygold: ["Gilroy-Bold"]
-        
 				// lato: ["Lato"],
 				// ps: ["Photograph Signature"],
 				// cd: ["Cinzel Decorative"],

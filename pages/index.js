@@ -14,7 +14,6 @@ export default function Home() {
 			<SeoComponent title="Conexa" description="" />
 			<HeroSection />
 			<AboutUsSection />
-			<CountdownSection />
 			<PricingPlans />
 			<AlliesSection />
 		</Layout>

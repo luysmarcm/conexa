@@ -21,58 +21,55 @@ const CountdownTimer = ({ countdownTimestampMs }) => {
 	function updateRemainingTime(countdown) {
 		setRemainingTime(getRemainingTimeUntilMsTimestamp(countdown));
 	}
-
-	console.log(remainingTime);
-
 	return (
-		<div class="mt-14 flex items-center justify-between">
-			<div class="flex items-center mr-7 flex-col flex-nowrap">
+		<div className="flex items-center justify-between ">
+			{/* <div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					class="time-elem relative w-36 h-32 shadow-xl flex items-center justify-center mb-5 rounded-lg text-6xl "
+					className="time-elem relative w-36 h-32 shadow-xl flex items-center justify-center mb-5 rounded-lg text-6xl "
 					id="days"
 				>
 					{remainingTime.month}
 				</span>
-				<span class="title">Meses</span>
-			</div>
+				<span className="title">Meses</span>
+			</div> */}
 
-			<div class="flex items-center mr-7 flex-col flex-nowrap">
+			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					class="time-elem relative w-36 h-32 shadow-xl flex items-center justify-center mb-5 rounded-lg text-6xl"
+					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-bold"
 					id="days"
 				>
 					{remainingTime.days}
 				</span>
-				<span class="title">Dias</span>
+				<span className="title">Dias</span>
 			</div>
 
-			<div class="flex items-center mr-7 flex-col flex-nowrap">
+			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					class="time-elem relative w-36 h-32 shadow-xl flex items-center justify-center mb-5 rounded-lg text-6xl"
+					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-bold"
 					id="hours"
 				>
 					{remainingTime.hours}
 				</span>
-				<span class="title">Horas</span>
+				<span className="title">Horas</span>
 			</div>
 
-			<div class="flex items-center mr-7 flex-col flex-nowrap">
+			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					class="time-elem relative w-36 h-32 shadow-xl flex items-center justify-center mb-5 rounded-lg text-6xl"
+					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-bold "
 					id="minutes"
 				>
 					{remainingTime.minutes}
 				</span>
-				<span class="title">Minutos</span>
+				<span className="title">Minutos</span>
 			</div>
-			<div class="flex items-center mr-7 flex-col flex-nowrap">
+			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					class="time-elem relative w-36 h-32 shadow-xl flex items-center justify-center mb-5 rounded-lg text-6xl"
+					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-bold"
 					id="minutes"
 				>
 					{remainingTime.seconds}
 				</span>
-				<span class="title">Segundos</span>
+				<span className="title">Segundos</span>
 			</div>
 		</div>
 	);
