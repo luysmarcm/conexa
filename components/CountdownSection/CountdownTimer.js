@@ -35,7 +35,7 @@ const CountdownTimer = ({ countdownTimestampMs }) => {
 
 			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-bold"
+					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-light"
 					id="days"
 				>
 					{remainingTime.days}
@@ -45,7 +45,7 @@ const CountdownTimer = ({ countdownTimestampMs }) => {
 
 			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-bold"
+					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop"
 					id="hours"
 				>
 					{remainingTime.hours}
@@ -55,7 +55,7 @@ const CountdownTimer = ({ countdownTimestampMs }) => {
 
 			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-bold "
+					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop"
 					id="minutes"
 				>
 					{remainingTime.minutes}
@@ -64,7 +64,7 @@ const CountdownTimer = ({ countdownTimestampMs }) => {
 			</div>
 			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-bold"
+					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop"
 					id="minutes"
 				>
 					{remainingTime.seconds}

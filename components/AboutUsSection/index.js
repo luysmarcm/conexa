@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const AboutUsSection = () => {
 	return (
@@ -36,7 +37,7 @@ const AboutUsSection = () => {
 				</div>
 			</div>
 			<div className="flex flex-col-2 items-center relative ">
-				<div>
+				<div className="w-1/2 md:p-10 ">
 					<h2 className="font-pop font-extrabold text-transparent text-6xl text-azul">
 						Canguro<span className="font-rale">PRO</span>
 					</h2>
@@ -52,8 +53,14 @@ const AboutUsSection = () => {
 						quieran empezar y especializarse en el área del servicio técnico.
 					</p>
 				</div>
-				<div className="w-full">
-					<img className="object-cover" src="/image/1.png" alt="" />
+				<div className="w-1/2">
+					<Image
+						className="object-cover"
+						src="/image/2.png"
+						alt=""
+						width={2156}
+						height={1519}
+					/>
 				</div>
 			</div>
 		</section>
