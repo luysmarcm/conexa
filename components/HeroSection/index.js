@@ -30,7 +30,7 @@ const HeroSection = () => {
 								</p>
 								<p id="content-box" className="bg-azul  md:text-2xl text-white">
 									october{" "}
-									<span className="font-gilroygold font-extrabold">2023</span>
+									<span className="font-extrabold">2023</span>
 								</p>
 							</div>
 							<CountdownSection />

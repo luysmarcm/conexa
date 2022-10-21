@@ -4,20 +4,6 @@ import Image from 'next/image';
 const AboutUsSection = () => {
 	return (
 		<section id="about" className="container mx-auto pt-10">
-			{/* <article class="card">
-				<div class="circle"></div>
-				<div class="circle"></div>
-				<div class="card-inner">
-					<div class="text">
-						<h1>
-							Hey, would you like to learn how to create a
-							<span class="text-gradient">generative</span> UI just like this?
-						</h1>
-					</div>
-				</div>
-				
-			</article> */}
-			{/* <div class="circle1"></div> */}
 			<div class="circle1"></div>
 			<div className="relative mx-auto px-4  pt-32 mb-16 flex flex-col-2 items-center w-3/4 bg-gold">
 				<div className="	">
