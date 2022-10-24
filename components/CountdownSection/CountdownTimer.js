@@ -22,7 +22,7 @@ const CountdownTimer = ({ countdownTimestampMs }) => {
 		setRemainingTime(getRemainingTimeUntilMsTimestamp(countdown));
 	}
 	return (
-		<div className="flex items-center justify-between ">
+		<div className="flex justify-self-center ">
 			{/* <div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
 					className="time-elem relative w-36 h-32 shadow-xl flex items-center justify-center mb-5 rounded-lg text-6xl "
@@ -33,43 +33,39 @@ const CountdownTimer = ({ countdownTimestampMs }) => {
 				<span className="title">Meses</span>
 			</div> */}
 
-			<div className="flex items-center mr-7 flex-col flex-nowrap">
+			<div className="flex items-center mr-7 flex-col">
 				<span
-					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop font-light"
+					className="w-16 h-16 lg:w-20 lg:h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-3xl lg:text-4xl font-light"
 					id="days"
 				>
 					{remainingTime.days}
 				</span>
-				<span className="title">Dias</span>
+				<span className="title text-base lg:text-lg">Dias</span>
 			</div>
 
 			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop"
+					className="w-16 h-16 lg:w-20 lg:h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-3xl lg:text-4xl font-light"
 					id="hours"
 				>
 					{remainingTime.hours}
 				</span>
-				<span className="title">Horas</span>
+				<span className="title text-base lg:text-lg">Horas</span>
 			</div>
-
 			<div className="flex items-center mr-7 flex-col flex-nowrap">
 				<span
-					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop"
+					className="w-16 h-16 lg:w-20 lg:h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-3xl lg:text-4xl in-range:font-light"
 					id="minutes"
 				>
 					{remainingTime.minutes}
 				</span>
-				<span className="title">Minutos</span>
+				<span className="title text-base lg:text-lg">Minutos</span>
 			</div>
 			<div className="flex items-center mr-7 flex-col flex-nowrap">
-				<span
-					className="w-20 h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-4xl font-pop"
-					id="minutes"
-				>
+				<span className="w-16 h-16 lg:w-20 lg:h-20 shadow-xl flex items-center justify-center mb-5 rounded-lg text-3xl lg:text-4xl font-light">
 					{remainingTime.seconds}
 				</span>
-				<span className="title">Segundos</span>
+				<span className="title text-base lg:text-lg">Segundos</span>
 			</div>
 		</div>
 	);

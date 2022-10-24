@@ -7,7 +7,7 @@ const AboutUsSection = () => {
 			<div class="circle1"></div>
 			<div className="relative mx-auto px-4  pt-32 mb-16 flex flex-col-2 items-center w-3/4 bg-gold">
 				<div className="	">
-					<h2 className="font-pop font-extrabold text-transparent text-6xl text-azul uppercase">
+					<h2 className="font-pop font-extrabold text-transparent text-5xl text-azul uppercase">
 						¿Quiénes Somos?
 					</h2>
 					<p className="text-azul  md:text-xl pt-6 ">
@@ -22,30 +22,30 @@ const AboutUsSection = () => {
 					<img className="object-cover" src="/image/unidos.png" alt="" />
 				</div>
 			</div>
-			<div className="flex flex-col-2 items-center relative ">
-				<div className="w-1/2 md:p-10 ">
-					<h2 className="font-pop font-extrabold text-transparent text-6xl text-azul">
-						Canguro<span className="font-rale">PRO</span>
+			<div className="flex flex-col-2 items-center relative">
+				<div className="w-1/3 md:p-10 ">
+					<h2 className="font-extrabold text-transparent text-5xl text-azul">
+						Canguro<span className="font-extralight">PRO</span>
 					</h2>
-					<p className="text-azul  md:text-xl pt-6 ">
+					<p className="text-azul pt-6 text-xl">
 						Nuestra historia comienza de la mano de Canguro; gracias al sueño
 						tecnológico de los instructores PRO. Pero, ¿qué es Canguro PRO?{" "}
 						<br />
 						<br />
-						<span className="font-bold font-pop font ">Canguro PRO</span>, es un
-						training room que nace en Barquisimeto, debido a la necesidad de
+						<span className="font-bold font-pop font  ">Canguro PRO</span>, es
+						un training room que nace en Barquisimeto, debido a la necesidad de
 						poder preparar, capacitar y formar personas en el área del servicio
 						técnico y así potenciar los conocimientos de las personas que
 						quieran empezar y especializarse en el área del servicio técnico.
 					</p>
 				</div>
-				<div className="w-1/2">
+				<div className="w-2/3">
 					<Image
-						className="object-cover"
-						src="/image/2.png"
+						className=""
+						src="/image/pro1.png"
 						alt=""
-						width={2156}
-						height={1519}
+						width={1619}
+						height={1295}
 					/>
 				</div>
 			</div>

@@ -4,7 +4,7 @@ import gsap from "gsap";
 
 const CountdownSection = () => {	
 	return (
-		<div className="pt-5">
+		<div className="pt-5 flex justify-around">
 			<CountdownTimer countdownTimestampMs={1698414921000} />
 		</div>
 	);
